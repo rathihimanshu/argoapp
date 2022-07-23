@@ -18,7 +18,7 @@ metadata:
   name: mydep
   namespace: argoappns
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nginx
